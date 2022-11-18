@@ -11,6 +11,7 @@ module.exports = function(api) {
             }],
         ],
         plugins: [
+            "@babel/plugin-syntax-dynamic-import"
             // path.resolve(__dirname, "./node_modules/next/dist/build/babel/plugins/react-loadable-plugin.js"),
         ]
     }
